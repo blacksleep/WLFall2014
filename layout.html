@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    Layout Demo
+                </title>
+                <style>
+                    /* #header {
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        right: 0px;
+                        height: 30px;
+                        background-color: blue;
+                    }
+                    #nav {
+                        position: absolute;
+                        top: 30px;
+                        bottom: 30px;
+                        left: 0px;
+                        width: 100px;
+                        background-color: #ccc;
+                    }
+
+                    #content {
+                        Position: absolute;
+                        bottom: 0px;
+                        left: 0
+                        right: 0
+                        height: 100px
+
+                    }*/
+                    body {
+                        margin: 0;
+                    }
+                    #header {
+                        background-color: #ccc;
+                        color: #fff;
+                        height: 30px;
+                        font-size: 24px;
+                        text-align: center;
+                    }
+
+                    #nav {
+                        background-color: lightblue;
+                        width: 100px;
+                        float: left;
+                        padding: 10px 10px;
+                        color: #fff;
+                    }
+
+                    #content {
+                        background-color: chartreuse;
+                        margin: 2px -1px 2px;
+                    }
+                    #content ul {
+                        width: 100px;
+                        margin: 0 auto;
+                    }
+                    #footer {
+                        background-color: darkgray;
+                        color: #fff;
+                        height: 30px;
+                    }
+                    .clearfix {
+                        clear: both;
+                    }
+
+                    #start {
+                        margin-top: -2px;
+                    }
+                    #end {
+                        margin-bottom: -2px;
+                    }
+                    h1 {
+                        margin-top: -2px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div id="header">
+                    Header
+                </div>
+                <div id="main">
+                    <div id="nav">
+                        Nav
+                        <ul>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                            <li><a href="">Menu</a> </li>
+                        </ul>
+                    </div>
+                <div id="content">
+                    <h1>Content</h1>
+                    <p id="start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi consequuntur dolor doloremque harum id, itaque labore pariatur provident veritatis. Corporis expedita laborum obcaecati voluptate. Aperiam debitis laboriosam necessitatibus voluptatibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto asperiores aspernatur at consectetur cum dolorem dolores eligendi id molestiae mollitia nostrum numquam omnis pariatur quod repudiandae temporibus ullam, voluptatum?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum incidunt nihil ratione. Dolore et harum hic iste iusto maxime molestiae nihil, non porro provident reiciendis saepe similique sunt, velit, voluptas!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit itaque, voluptate. Consectetur consequuntur, dolor dolorum ducimus eius esse fugit ipsam iure magni nostrum odit officiis provident, quae rem, unde veniam!</p>
+                    <p id="end">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim exercitationem nisi, quae quidem quo tenetur veniam? Eligendi inventore laborum molestias sit? Cum doloremque dolorum fuga itaque similique sit ullam!</p>
+                </div>
+                        <div class="clearfix"></div>
+                </div>
+                <div id="footer">
+                    Footer
+                </div>
+            </body>
+        </html>
